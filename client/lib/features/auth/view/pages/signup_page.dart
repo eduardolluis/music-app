@@ -36,7 +36,7 @@ class _SignupPageState extends State<SignupPage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Text("Sign Up.", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+              const Text("Sign Up.", style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold)),
               const SizedBox(height: 30),
 
               CustomField(hintText: "Name", controller: _nameController),
