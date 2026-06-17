@@ -1,5 +1,5 @@
 name: client
-description: "A new Flutter project."
+description: "client-side for the app"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -36,6 +36,11 @@ dependencies:
   cupertino_icons: ^1.0.8
   http: ^1.6.0
   fpdart: ^1.2.0
+  flutter_riverpod: ^3.3.2
+  riverpod_annotation: ^4.0.3
+  riverpod_generator: ^4.0.4
+  build_runner: ^2.15.0
+  riverpod_lint: ^3.1.4
 
 dev_dependencies:
   flutter_test:
